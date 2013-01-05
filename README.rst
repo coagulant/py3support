@@ -42,6 +42,7 @@ of package authors don't provide python version classifiers at all.
 Todo
 ----
 
+* If not requirements.txt exists make use of pip freeze
 * Check python 3 compatibility for latest version in PyPI
 * Handle development versions -e
 * Search for python 3 forks at github

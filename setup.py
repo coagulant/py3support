@@ -1,15 +1,17 @@
-from distutils.core import setup
+from setuptools import setup
+
 
 setup(
     name='py3support',
-    version='0.1',
+    version='0.1.1',
     scripts=['bin/py3support'],
-    requires=['docopt', 'requests'],
+    install_requires=['docopt', 'requests'],
     url='https://github.com/coagulant/py3support',
     license='MIT',
     author='Ilya Baryshev',
     author_email='baryhsev@gmail.com',
     description='Check which of your dependencies already support python 3',
+    long_description=open('README.rst').read(),
     classifiers=(
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
