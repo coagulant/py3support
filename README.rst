@@ -6,14 +6,16 @@ Check which of your dependencies already support python 3.
 Usage
 -----
 
+Example::
+
    $ py3support requirements.txt
 
    Python 3 support level: 50% (2/4)
 
    Python 3
    ========
-     requests==1.0.4
-     docutils==0.10
+     requests==1.0.4  
+     docutils==0.10  
 
    Python 2
    ========
