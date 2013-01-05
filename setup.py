@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='py3support',
-    version='0.1.1',
+    version='0.2dev',
     scripts=['bin/py3support'],
     install_requires=['docopt', 'requests'],
     url='https://github.com/coagulant/py3support',

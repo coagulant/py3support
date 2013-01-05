@@ -30,6 +30,9 @@ How it works
 ------------
 The only easy way to tell if package supports python 3 is to trust `author's classifiers`_.
 This tool hits PyPI index to check what python versions do your dependencies support.
+NOTE: We do not need to inspect dependencies of packages in requirements.txt, because we
+rely on classifiers only.
+
 
 Caveats
 ~~~~~~~
@@ -42,8 +45,10 @@ of package authors don't provide python version classifiers at all.
 Todo
 ----
 
-* If not requirements.txt exists make use of pip freeze
 * Check python 3 compatibility for latest version in PyPI
+* If not requirements.txt exists make use of pip freeze
+* py3support check Flask==0.9
 * Handle development versions -e
+* Add progressbar
 * Search for python 3 forks at github
 * Handle package names with wrong CaSe (?)
