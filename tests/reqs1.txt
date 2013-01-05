@@ -1,0 +1,4 @@
+Flask==0.9
+PIL==1.1.6
+requests==1.0.4
+docutils==0.10
